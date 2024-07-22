@@ -28,8 +28,8 @@ Console.WriteLine("Sayıların çarpımı: " + sonuc);
 
 // Parametre Alan ve Geriye Değer Döndürmeyen bir Metot
 
-static void WelcomeDear(string isim, string soyisim)
+static void WelcomeDear(string Name, string SurName)
 {
-    Console.WriteLine($"Hoş Geldiniz {isim} {soyisim}");
+    Console.WriteLine($"Hoş Geldiniz {Name} {SurName}");
 }
 WelcomeDear("Ahmet", "Sulu");
